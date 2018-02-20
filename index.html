@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Puzzle</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Content here -->
+
+<div class="top-nav">
+	<h1 class="heading1">Puzzle Game</h1>
+	<div class="reset-game-div">
+		<p>Reset</p>
+	</div>
+
+	<div class="point-box">
+
+		<div id="cmoves">
+			0
+		</div>
+
+		<div id="cmatches">
+			0
+		</div>
+
+	</div>
+</div>
+
+<div id="container">
+	<div id="spelplan">
+
+	</div>
+
+	<div id="blandade_brickor" ondrop="drop(event)" ondragover="allowDrop(event)">
+	</div>
+
+</div>
+
+</body>
+</html>

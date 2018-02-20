@@ -1,0 +1,94 @@
+body{
+	background-color: #cbcbb3;
+}
+
+.top-nav {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 0px;
+	top: 10%;
+	left: 50%;
+}
+
+.heading1 {
+	font-size: 50px;
+	color: #ff471a;
+	/*text-align: center;*/
+}
+
+.reset-game-div {
+	width: 60px;
+	height: 30px;
+	border: 2px solid red;
+	line-height: 0px;
+	background-color: #ff704d;
+	/*top: 50%;*/
+	left: 20%;
+	margin-left: 31em;
+}
+
+.reset-game-button {
+	/*text-align: center;*/
+	width: 200px;
+	max-width: 400px;
+	height: 40px;
+	border: none;
+	background-color: red;
+}
+
+.reset-game-div:active {
+	box-shadow: 2px 4px 6px;
+}
+
+.container {
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+#spelplan {
+	width: 560px;
+	height: 397px;
+	float: left;
+}
+
+#blandade_brickor {
+	width: 550px;
+	height: 397px;
+	float: left;
+	margin-left: 5px;
+}
+
+#spelplan div {
+	width: 110px;
+	height: 80px;
+	float: left;
+	border: 1px solid black;
+	user-select: none;
+}
+
+.point-box {
+	float: left;
+	margin-top: -60px;
+}
+
+
+#cmoves {
+	border: 4px solid #b7b795;
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
+
+#cmatches {
+	border: 4px solid #b7b795;
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
